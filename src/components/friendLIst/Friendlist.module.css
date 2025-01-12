@@ -1,0 +1,51 @@
+.friendSection{
+      margin: 40px auto;
+      width: 600px;
+}
+
+.friendList{
+      display: flex;
+      list-style-type: none;
+      justify-content: space-between;
+      padding-left: 0px;
+}
+
+.friendItem{
+    border: 2px solid #141313;
+    border-radius: 8px;
+    padding: 10px;
+    padding-bottom: 0;
+    width: 90px;
+    height: 160px;
+}
+
+.friendCard{
+   display: flex;
+   flex-direction: column;
+   align-items: center; 
+}
+
+.friendImg{
+   padding-bottom: 20px;
+}
+
+.friendName{
+   padding-bottom: 5px;
+   margin: 0;
+   font-size: 1.5rem;
+}
+
+.isOnline{
+   padding-top: 0;
+   margin: 0;
+}
+
+.online{
+   color: green;
+}
+
+.offline{
+   color: red;
+}
+
+
